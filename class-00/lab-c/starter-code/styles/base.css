@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
 * {
     font-family: times;
@@ -17,3 +18,14 @@ body {
     font-family: 'Patrick Hand', cursive;
   }
     
+=======
+@import url("https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand");
+
+* {
+  font-family: times;
+}
+
+body {
+  background: #fff;
+}
+>>>>>>> e7bfac1aa999930ff2031cb8dc845a99a8ce9915
