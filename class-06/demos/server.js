@@ -26,12 +26,12 @@ app.get('/location', (request, response) => {
   const mockLocationDigest = {
     search_query : request.query.data,
     formatted_query : mockLocationData.results[0].formatted_address,
-    latitude : mockLocationData.results[0].geometry.location.lng;
+    latitude : mockLocationData.results[0].geometry.location.lng
   }
   // return mockLocation;
   response.send(mockLocationDigest);
 
-  cont location = new Location(quest.query.data, mockLocationData.results[0]);
+  const location = new Location(quest.query.data, mockLocationData.results[0]);
 
   response.send(location);
 })
